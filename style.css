@@ -1,0 +1,45 @@
+strong{
+	position: relative;
+	padding: 8px;
+}
+.first{
+	background-color: coral;
+
+}
+.second{
+	background-color:wheat;
+	top: 20px;
+}
+.third{
+	background-color:beige;
+	top: 40px
+}
+figure{
+  position: relative;
+  display: inline-block;
+}
+
+figcaption{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px black;
+}
+
+#example1 figcaption{
+  left: 20px;
+  bottom: 20px;
+}
+
+#example2 figcaption{
+  right: 0px;
+  bottom: 6px;
+  background: #c33127;
+  padding: 30px;
+}
+body{
+	background-color: indigo
+
+}
+h1{color: white}
